@@ -28,12 +28,12 @@ export const About = () => {
             <div className="about-formation-list">
               <div className="about-formation about-blue-border">
                 <h4 className="about-formation-title">Master - Ingénierie AI & Applications</h4>
-                <p className="about-formation-school">2iE - Institut International d'Ingénierie</p>
+                <p className="about-formation-school">2iE - Institut International d'Ingénierie de l'Eau et de l'Environnement</p>
                 <p className="about-blue">2024 - En cours</p>
               </div>
               <div className="about-formation about-purple-border">
                 <h4 className="about-formation-title">Classes Préparatoires</h4>
-                <p className="about-formation-school">2iE - Institut International d'Ingénierie</p>
+                <p className="about-formation-school">2iE - Institut International d'Ingénierie de l'Eau et de l'Environnement</p>
                 <p className="about-purple">2022 - 2024</p>
               </div>
               <div className="about-formation about-green-border">
