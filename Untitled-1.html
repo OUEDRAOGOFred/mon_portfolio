@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Application Thème Réseau</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      overflow: hidden;
+      background: #000;
+    }
+
+    /* Fond d'écran */
+    .background-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("background.png");
+      background-size: cover;
+      background-position: center;
+      filter: blur(3px) brightness(0.7);
+      z-index: -1;
+    }
+
+    /* Contenu principal */
+    .content {
+      position: relative;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .content h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px rgba(0, 183, 255, 0.8);
+    }
+
+    .content p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    }
+
+    .content button {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      background: rgba(0, 123, 255, 0.7);
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+
+    .content button:hover {
+      background: rgba(0, 123, 255, 1);
+      transform: scale(1.05);
+    }
+
+    /* Responsive mobile */
+    @media (max-width: 600px) {
+      .content h1 {
+        font-size: 2rem;
+      }
+
+      .content p {
+        font-size: 1rem;
+      }
+
+      .content button {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="background-overlay"></div>
+
+  <div class="content">
+    <h1>Bienvenue dans l'application</h1>
+    <p>Thème IA - Réseau Futuriste</p>
+    <button>Commencer</button>
+  </div>
+</body>
+</html>
