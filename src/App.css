@@ -1,3 +1,49 @@
+/* ----------- Responsive Design Mobile ----------- */
+@media (max-width: 900px) {
+  .about-grid, .skills-grid, .projects-grid, .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .footer-title {
+    font-size: 1.2rem;
+  }
+  .about-title, .skills-title, .projects-title, .contact-title {
+    font-size: 1.5rem;
+  }
+  .about-card, .skills-card, .projects-card, .contact-card {
+    padding: 18px 8px;
+  }
+  .navbar-links {
+    gap: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-title, .about-title, .skills-title, .projects-title, .contact-title {
+    font-size: 1.1rem;
+  }
+  .footer-title {
+    font-size: 1rem;
+  }
+  .footer-links {
+    gap: 8px;
+  }
+  .about-card, .skills-card, .projects-card, .contact-card {
+    padding: 10px 2px;
+  }
+  .navbar-content {
+    flex-direction: column;
+    height: auto;
+    gap: 8px;
+  }
+  .navbar-title {
+    font-size: 1rem;
+  }
+}
 /* CSS pur pour le thème dark cyberpunk */
 
 :root {
