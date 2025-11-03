@@ -22,6 +22,20 @@ const projects = [
     icon: "🧠"
   },
   {
+    title: "Détection de la Pneumonie",
+    description: (
+      <>
+        <strong>🫁 IA Médicale — Détection Pneumonie</strong><br /><br />
+        Solution d'intelligence artificielle avancée utilisant des réseaux de neurones convolutionnels pour la détection automatique de pneumonie à partir d'images radiographiques thoraciques.<br /><br />
+        Ce projet représente une application concrète de l'apprentissage profond dans le domaine médical, permettant d'assister les professionnels de santé dans le diagnostic rapide et précis de la pneumonie.<br /><br />
+        <a href="https://ouedraogofred-projet-ml-avanc--app-9qbos6.streamlit.app/" target="_blank" rel="noopener noreferrer" style={{color:'#00fff7',fontWeight:'bold',textDecoration:'underline'}}>Essayez l'application en ligne</a>
+      </>
+    ),
+    tags: ["Deep Learning", "CNN", "Streamlit", "IA Médicale", "Python"],
+    color: "green",
+    icon: "🫁"
+  },
+  {
     title: "Gestion intelligente de la consommation énergétique",
     description: (
       <>
