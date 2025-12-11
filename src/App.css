@@ -660,7 +660,7 @@ body {
 .contact-btn {
   width: 100%;
   padding: 16px 0;
-  background: linear-gradient(90deg, #00ff00, #0066ff, #0066ff);
+  background: #0066ff;
   color: #fff;
   font-family: 'Orbitron', sans-serif;
   font-size: 1.1rem;
@@ -669,11 +669,13 @@ body {
   border-radius: 10px;
   margin-top: 12px;
   cursor: pointer;
-  transition: background 0.3s, transform 0.3s;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 102, 255, 0.3);
 }
 .contact-btn:hover {
-  background: linear-gradient(90deg, #00cc00, #0033cc, #cc00cc);
-  transform: translateY(-2px) scale(1.03);
+  background: #0052cc;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 102, 255, 0.5);
 }
 
 .footer-section {
