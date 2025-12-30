@@ -30,6 +30,17 @@ const SearchIcon = () => (
   </svg>
 );
 
+const RocketIcon = () => (
+  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 2C12 2 6 8 6 13C6 16 8 18 10 18H14C16 18 18 16 18 13C18 8 12 2 12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M12 18V22" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M9 22H15" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+    <circle cx="12" cy="11" r="2" stroke="currentColor" strokeWidth="2"/>
+    <path d="M5 14C5 14 3 14 2 15C1 16 2 18 3 18C4 18 5 17 5 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M19 14C19 14 21 14 22 15C23 16 22 18 21 18C20 18 19 17 19 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+  </svg>
+);
+
 const projects = [
   {
     title: "HERMES_AI",
@@ -85,6 +96,20 @@ const projects = [
     tags: ["Hadoop", "R", "Big Data", "Analytics"],
     color: "blue",
     icon: <SearchIcon />
+  },
+  {
+    title: "Talents Africains",
+    description: (
+      <>
+        <strong>Plateforme africaine dédiée à l'innovation et l'entrepreneuriat</strong><br /><br />
+        Développement d'une plateforme dédiée aux porteurs de projets innovants, aux entrepreneurs et aux créateurs du continent africain. Un espace numérique conçu pour connecter, inspirer et soutenir l'écosystème entrepreneurial africain.<br /><br />
+        Cette plateforme offre aux talents africains un lieu d'échange, de visibilité et d'opportunités pour transformer leurs idées en réalité et contribuer au développement du continent.<br /><br />
+        <a href="https://talents-africains-git-main-ouedraogo-freddys-projects.vercel.app/" target="_blank" rel="noopener noreferrer" style={{color:'#00fff7',fontWeight:'bold',textDecoration:'underline'}}>Découvrir la plateforme</a>
+      </>
+    ),
+    tags: ["React", "Web Platform", "Entrepreneuriat", "Innovation"],
+    color: "green",
+    icon: <RocketIcon />
   },
   // Projet "Portfolio Futuriste" supprimé
 ];
